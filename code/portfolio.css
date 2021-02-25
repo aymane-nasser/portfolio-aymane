@@ -1,0 +1,521 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    background-image: url(/img/background.jpg);
+
+
+
+
+}
+
+hr {
+    width: 0.078125vw;
+    height:  388.903125vw;
+    background: transparent;
+    border:  0.111vw solid #48ff48;
+    position: absolute;
+    top:17.57vw;
+    left: 20.31vw;
+}
+
+#HR {
+    width: 1.328125vw;
+    height:  1.40625vw;
+    background-color: none;
+    border: 0.23vw solid #48ff48;
+    position: fixed;
+    z-index: 1;
+}
+
+
+.container {
+    display: grid;
+    grid-template-rows: 11.71875vw  39.0625vw 93.75vw  200.03125vw 62.5vw;
+}
+li,
+.a {
+    font-family: "roboto";
+    font-weight: bold;
+    font-size: 1.558846453624318vw;
+    line-height:  2.65vw;
+    text-align: left;
+    color: #7a7a7a;
+    text-decoration: none;
+}
+#menu,
+.nav_links,
+li,
+.a:hover {
+    display: flex;
+    align-items: center;
+    padding:2.338269680436477vw 10%;
+    list-style: none;
+    padding: 0vw 1.558846453624318vw;
+    transition: ease-in-out;
+    color: chartreuse;
+    justify-content: flex-end;
+
+}
+#accueil1 {
+    box-sizing: border-box;
+    font-family: "Book Antiqua";
+    font-weight: normal;
+    font-size:2.338269680436477vw;
+    text-align: left;
+    color: #7a7a7a;
+    opacity: 0.7;
+    position: absolute;
+    top: 17.18vw;
+    left: 25vw;
+}
+#h {
+    font-family: "roboto";
+    font-size:2.572096648480125vw;
+    line-height: 5.533904910366329vw;
+    text-align: left;
+    color: white;
+    position: absolute;
+    left:  25vw;
+    top:  23.4375vw;
+}
+
+#ayman {
+    font-family: "roboto";
+    font-size:2.572096648480125vw;
+    line-height: 5.533904910366329vw;
+    text-align: left;
+    color: chartreuse;
+}
+#p {
+    font-family: "roboto";
+    font-size: 1.796875vw;
+    line-height: 2.42vw;
+    text-align: left;
+    color: #818181;
+    position: absolute;
+    left:25vw;
+    top: 35.9375vw;
+}
+#div2 {
+    background-color:#14121C;
+    position: absolute;
+    top:  59.62vw;
+    width: 100%;
+    height: 170%;
+}
+#Travail1 {
+    font-family: "roboto";
+    font-weight: normal;
+    font-size:2.338269680436477vw;
+    text-align: left;
+    color: #7a7a7a;
+    position: absolute;
+    top: 6.23vw;
+    left: 24.94vw;
+}
+#imgs {
+    width: 35.07vw;
+    height: 23.38vw;
+    box-shadow: 0vw 0.07vw  3.03vw #000000;
+    position: absolute;
+    right:  54.55vw;
+    top: 15.58vw;
+    z-index: 1;
+    
+}
+
+#vocal {
+    width:  31.17vw;
+    height: 19.48vw;
+    position: absolute;
+    left:57.67vw;
+    top: 19.48vw;
+  
+}
+
+#logoo {
+    width:35.07vw;
+    height:  23.38vw;
+    position: absolute;
+    top: 46.76vw;
+    left: 28.05vw;
+    box-shadow: 0vw 0.07vw  3.03vw #000000;
+    
+}
+#ashop {
+    font-family: "roboto";
+    font-weight: normal;
+    text-decoration: underline;
+    font-size: 1.55vw;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    right: 83vw;
+    top:  12.47vw;
+    
+}
+
+#logoop {
+    font-family: "roboto";
+    font-weight: normal;
+    text-decoration: underline;
+    font-size: 1.55vw;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    right:65.47vw;
+    top: 43.64vw;
+    
+}
+
+#company {
+    font-family: "roboto";
+    font-weight: normal;
+    text-decoration: underline;
+    font-size: 1.55vw;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    right:  22.60vw;
+    top: 16.36vw;
+    
+}
+#div3 {
+    background: #0d0c0f;
+    position: absolute;
+    top:134.97vw;
+    width: 100%;
+    height: 490%;
+
+
+}
+#propos {
+    font-family: "roboto";
+    font-weight: normal;
+    font-size:2.338269680436477vw;
+    text-align: left;
+    color: #7a7a7a;
+    position: absolute;
+    top:  6.23vw;
+    left:  24.94vw;
+}
+
+#avatar {
+    position: absolute;
+    top: 21.48vw;
+    left:25.73vw;
+    width: 13vw;
+    height: 13vw;
+}
+
+#Color {
+    font-family: "roboto";
+    font-size: 1.55vw;
+    line-height: 4.765625vw;
+    text-align: left;
+    color: #51ff00;
+    position: absolute;
+    right: 7.79vw;
+    top:31.17vw;
+
+}
+
+#aymane {
+    color: rgb(255, 102, 0);
+    font-family: "roboto";
+    font-size: 1.5625vw;
+    line-height: 3.984375vw;
+    text-align: left;
+}
+
+#id {
+    color: rgb(5, 105, 255);
+    font-family: "roboto";
+    font-size: 1.5625vw;
+    line-height: 3.984375vw;
+    text-align: left;
+}
+
+.strong {
+    color: rgb(21, 208, 255);
+    font-family: "roboto";
+    font-size: 1.5625vw;
+    line-height:3.98vw;
+    text-align: left;
+}
+
+.cette {
+    color: red;
+    font-family: "roboto";
+    font-size: 1.5625vw;
+    line-height:3.98vw;
+    text-align: left;
+}
+
+strong {
+    font-family: "roboto";
+    font-size: 1.5625vw;
+    line-height: 2.42vw;
+    text-align: left;
+    color: #818181;
+}
+
+.blau {
+    color: blue;
+    font-family: "roboto";
+    font-size: 1.5625vw;
+    line-height:3.98vw;
+    text-align: left;
+}
+
+.return {
+    color:#7A48FF;
+    font-family: "roboto";
+    font-size: 1.5625vw;
+    line-height: 3.98vw;
+    text-align: left;
+}
+
+.e {
+    color: rgba(255, 255, 255, 0.664);
+    font-family: "roboto";
+    font-size: 1.558846453624318vw;
+    line-height:3.984375vw;
+    text-align: left;
+}
+
+#n {
+    font-family: "roboto";
+    font-size: 1.796875vw;
+    line-height: 4.765625vw;
+    text-align: left;
+    color: #818181;
+    position: absolute;
+    top: 36.24vw;
+    left: 16.36vw;
+    bottom: 45.5cm;
+}
+#div4 {
+    background: #14121C;
+    position: absolute;
+    top: 338.90vw;
+    width: 100%;
+    height: 142%; ;
+}
+#Contact {
+    font-family: "roboto";
+    font-weight: normal;
+    font-size: 2.33vw;
+    text-align: left;
+    color: #7a7a7a;
+    position: absolute;
+    top:  6.23vw;
+    left: 25vw;
+}
+#trouvez {
+    font-family: "roboto";
+    font-weight: normal;
+    font-size:  2.18vw;
+    text-align: left;
+    color: #ffffff;
+    position: absolute;
+    top: 14.02vw;
+    left: 31vw;
+}
+#a {
+    position: relative;
+    left: 14.8VW;;
+    top:  23.38vw;
+    display: inline-block;
+    padding: 0.38vw 0.38vw;
+    color: #ececec;
+    text-transform: uppercase;
+    letter-spacing: 0.31vw;
+    font-size: 1.558846453624318vw;
+    overflow: hidden;
+    transition: 0.2s;
+    text-decoration: none;
+}
+#a:hover {
+    color: #000000;
+    background: green;
+    box-shadow: 0 0 0.77vw green, 0 0 3.11vw green, 0 0  6.23vw green;
+    transition-delay: 0.2s;
+}
+.icon {
+    width: 18%;
+}
+.snap {
+    position: relative;
+    top:  38.97vw;
+    left:  31.95vw;
+    display: inline-block;
+    padding:0.38vw;
+    color: #ececec;
+    text-transform: uppercase;
+    letter-spacing:  0.31vw;
+    font-size: 1.55vw;
+    overflow: hidden;
+    transition: 0.2s;
+    text-decoration: none;
+}
+.snap:hover {
+    color: #000000;
+    background: green;
+    box-shadow:0 0 0.77vw green, 0 0 3.11vw green, 0 0  6.23vw green;
+    transition-delay: 0.2s;
+}
+
+#logo1{
+    height:5.45vw; width: 7.01vw;
+    
+    position: absolute;
+    top:  62.45vw;
+    left: 2vw;
+}
+#copy{
+    font-family: "roboto";
+    font-size: 1.796875vw;
+    line-height: 3.42vw;
+    text-align: left;
+    color: #615f5f;
+    position: absolute;
+    left:40vw;
+    top: 63.9375vw;
+}
+#modal-open {
+    position: absolute;
+    top: 53.66vw;
+    right:  33.2vw;
+    width: 22.6vw;
+    height:4.67vw;
+    display: inline-block;
+    color: #5921f3;
+    text-transform: uppercase;
+    letter-spacing:  0.31vw;
+    font-size: 1.16vw;
+    overflow: hidden;
+    transition: 0.2s;
+    background: firebrick;
+    border-radius:  3.89vw;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    
+}
+
+#modal-open:hover {
+    color: #000000;
+    background: green;
+    box-shadow: 0 0 0.77vw green, 0 0 3.11vw green, 0 0  6.23vw green;
+    transition-delay: 0.2s;
+}
+#contact-modal{
+    display: none;
+    position: fixed;
+    top: -6vw;
+    left: 0;
+    margin-right: 10VW;
+    width: 100vw;
+    z-index: 999;
+
+    
+}
+
+#modal-contact{
+    background: black;
+    margin: 35px auto;
+    width: 80%;
+    height: 55vw;
+    box-shadow: 4px 4px 5px rgba(0, 0,0,25);
+    z-index: 999;
+}
+#header{
+    background: chartreuse;
+    color: #fff;
+    width: 100%;
+    height: 5vw;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    z-index: 999;
+    margin-top: 3vw;
+}
+#header, .close-modal{
+    font-size: 50px;
+    float: right;
+}
+#header, .close-modal:hover{
+    color: black;
+    cursor: pointer;
+}
+
+h5{
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 25px;
+    text-align: center;
+    margin: 30px 0px;
+}
+#h5{
+    color: chartreuse;
+    text-transform: uppercase;
+    font-size: 35px;
+    text-align: center;
+    margin: 30px 0px;
+}
+#modal-body{
+    color: chartreuse;
+    text-transform: uppercase;
+    font-size: 35px;
+
+}
+.form{
+    width: 0vw;
+    margin: 50px 10px;
+    margin-left: 12.5%;
+}
+.form, label{
+    display: block;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.form, input, textarea{
+    width: 50vw;
+    height: 4vw;
+    border: none;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+}
+
+#en{
+    width: 22vw;
+    height: 3vw;
+    margin-left: 36vw;
+    margin-top: 6vw;
+    border-radius: 1vw;
+    background-color: chartreuse;
+    display: inline-block;
+    color: chartreuse;
+    text-transform: uppercase;
+    letter-spacing:  0.31vw;
+    font-size: 1.16vw;
+    overflow: hidden;
+    transition: 0.2s;
+    background: black;
+    border-radius:  3.89vw;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    z-index: 999;
+
+}#en:hover{
+    color: #000000;
+    background: chartreuse;
+    box-shadow: 0 0 0.77vw rgb(0, 0, 0), 0 0 3.11vw green, 0 0  6.23vw green;
+    transition-delay: 0.2s;
+
+}
